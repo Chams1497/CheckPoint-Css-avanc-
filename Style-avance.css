@@ -1,0 +1,384 @@
+/*section  header */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    width: 1500px;
+    align-items: center;
+
+}
+
+.nav-header ul {
+    display: flex;
+    float: left;
+    color: #747474;
+    list-style: none;
+
+}
+
+.nav-header a:hover {
+    color: #00b39b;
+}
+
+
+.span-header1 {
+    color: aquamarine;
+    font-size: xx-large;
+}
+
+.span-header2 {
+    font-size: xx-large;
+    color: #747474;
+
+}
+
+.nav-item1 {
+    color: aquamarine;
+}
+
+/*section  main*/
+
+.main-img {
+    margin-top: 150px;
+    margin-left: 700px;
+}
+
+.main-h1 {
+    text-align: center;
+    color: #00b39b;
+
+}
+
+.row {
+    justify-content: center;
+
+
+}
+
+/*section main align-content */
+.align-content {
+    display: flex;
+    color: white;
+    font-size: x-large;
+    margin-top: 10%;
+    margin-inline: 20%;
+    font-family: Roboto, Arial, sans-serif
+}
+
+.fa {
+    margin-inline: 11%;
+}
+
+.content1 {
+    background-color: #00b39b;
+    height: 360px;
+    width: 350px;
+    margin: 1%;
+
+}
+
+h2 {
+    margin-inline: 11%;
+}
+
+.content1 p {
+    margin: 11%;
+}
+
+.content1 select {
+    margin-inline: 11%;
+    margin-top: 15%;
+    text-decoration: underline;
+    font-size: large;
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.content2 {
+    background-color: #3d83df;
+    height: 360px;
+    width: 350px;
+    margin: 1%;
+}
+
+h3 {
+    margin-inline: 11%;
+}
+
+.content2 p {
+    margin: 11%;
+}
+
+.content2 select {
+    margin-inline: 11%;
+    margin-top: 15%;
+    text-decoration: underline;
+    font-size: large;
+    border: none;
+    background: transparent;
+    color: white;
+
+}
+
+.content3 {
+    background-color: #1b2734;
+    height: 360px;
+    width: 350px;
+    margin: 1%;
+}
+
+h4 {
+    margin-inline: 11%;
+}
+
+.content3 p {
+    margin: 11%;
+}
+
+.content3 select {
+    margin-inline: 11%;
+    margin-top: 5%;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: large;
+    color: white;
+}
+
+/*section main contain */
+
+.contain {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.contain h5 {
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Roboto, Arial, sans-serif;
+    width: 35%;
+    float: left;
+    color: #00b39b;
+    margin-top: 2%;
+
+}
+
+.contain ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    list-style: none;
+    background: none;
+    filter: grayscale(100%);
+
+}
+
+.contain li {
+    margin-left: 5%;
+}
+
+/*section main contenu-item */
+.contenu-item {
+    background-color: #e5faf8;
+    margin-top: 1%;
+}
+
+.contenu-item1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.item-flex h6 {
+    color: #00b39b;
+    font-size: xx-large;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-inline: 10%;
+    margin-top: 15%;
+}
+
+.item-flex p {
+    margin-inline: 10%;
+    font-family: 'Roboto' ,Arial, sans-serif;
+   color: #747474;
+   font-size: small;
+}
+
+.item-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    float: left;
+    margin-inline-end: 20%;
+    padding-top: 5%;
+
+
+}
+
+.item-flexbox1 {
+    border: 1px solid silver;
+    width: 295px;
+    height: 290px;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.item-flexbox2 {
+    border: 1px solid silver;
+    width: 295px;
+    height: 280px;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.item-flexbox3 {
+    border: 1px solid silver;
+    width: 295px;
+    height: 280px;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.item-flexbox4 {
+    border: 1px solid silver;
+    width: 295px;
+    height: 280px;
+    background-color: white;
+    margin-right: 1%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: larger;
+
+}
+
+/*section text-image  de villes */
+.section-text1 {
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(151, 195, 195);
+    font-weight: 400;
+
+}
+
+.section-text2 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: #747474;
+
+}
+
+/*section text-image  de villes : align-content-all */
+.section-image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-inline: 10%;
+    margin-top: 10%;
+
+}
+
+.align-content-all {
+    border: 1px solid;
+    width: 300px;
+    height: 360px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    font-family: 'Roboto' Arial, sans-serif;
+
+}
+
+.align-content-span {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #747474;
+    font-size: small;
+    margin-top: 5%;
+    font-family: 'Roboto', Arial, sans-serif;
+
+}
+
+.align-content-span1 {
+    border: 1px solid;
+    background-color: #3d83df;
+    color: white;
+    font-size: smaller;
+    padding: 1%;
+    font-family: 'Roboto' ,Arial, sans-serif;
+}
+
+/* la derniere section  de main nommée  section-last */
+.section-last p {
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #747474;
+}
+
+.section-last a {
+    font-size: small;
+    border: 1px solid #747474;
+    color: white;
+    background-color: #3d83df;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 45%;
+}
+
+/*section footer */
+.item-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.item-footer1 {
+    color: #ababab;
+    font-size: small;
+}
+
+.item-footer a {
+    text-decoration: none;
+    font-size: small;
+}
+
+.item-footer2 {
+    font-size: small;
+    color: #ababab;
+}
+
+.item-footer3 {
+    text-align: center;
+    font-size: small;
+    color: #ababab;
+}
